@@ -12,5 +12,6 @@
     // constants
     define("SCHOOL_NAME", "ABC College");
     define("PASS_MARK", 40);
-    echo constant("SCHOOL_NAME")
+    // echo constant("SCHOOL_NAME")
+    echo "Your constant is ".SCHOOL_NAME
 ?>
