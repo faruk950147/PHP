@@ -1,4 +1,23 @@
 <?php
+/*
+PHP Data Types
+String
+Integer
+Float (floating point numbers - also called double)
+Boolean
+Array
+Object
+NULL
+Resource
+*/
+var_dump(5);
+var_dump("John");
+var_dump(3.14);
+var_dump(true);
+var_dump([2, 3, 56]);
+var_dump(NULL);
+var_dump(new stdClass());
+var_dump(fopen("file.txt", "r"));
 
 // ---------- PHP Data Types ----------
 
