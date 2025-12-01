@@ -1,0 +1,128 @@
+PHP Data Types
+
+PHP-তে মোটামুটি ৮ ধরনের ডাটা টাইপ সবচেয়ে বেশি ব্যবহৃত হয়:
+
+1. String
+
+অক্ষর/টেক্সট এর ডাটা
+
+$name = "Faruk";
+
+2. Integer
+
+পুরো সংখ্যা (দশমিক ছাড়া)
+
+$age = 20;
+
+3. Float / Double
+
+দশমিক সংখ্যা
+
+$price = 10.50;
+
+4. Boolean
+
+True অথবা False
+
+$isActive = true;
+
+5. Array
+
+একাধিক মান রাখার জন্য
+
+$colors = ["Red", "Green", "Blue"];
+
+6. Object
+
+ক্লাস থেকে তৈরি অবজেক্ট
+
+class Student {}
+$std = new Student();
+
+7. NULL
+
+কোনো মান নেই
+
+$data = null;
+
+8. Resource
+
+ফাইল, ডাটাবেস কানেকশন ইত্যাদি
+
+PHP Type Conversion (টাইপ কনভার্শন)
+
+PHP-তে দুইভাবে টাইপ কনভার্শন হয়:
+
+1️⃣ Automatic (Implicit) Type Conversion
+
+PHP নিজে থেকেই টাইপ পরিবর্তন করে।
+
+উদাহরণ:
+$x = "10" + 5;
+echo $x; 
+
+
+আউটপুট: 15
+
+"10" (string) → integer এ convert হয়ে গেছে।
+
+আরও উদাহরণ:
+
+$y = 5 + 2.5;  // integer + float
+echo $y;       // Output: 7.5
+
+
+PHP integer → float এ কনভার্ট করছে।
+
+2️⃣ Manual (Explicit) Type Conversion
+
+তুমি নিজে টাইপ কনভার্ট করবে।
+
+Syntax:
+(int)$var
+(float)$var
+(string)$var
+(bool)$var
+(array)$var
+
+Example: String → Integer
+$val = "123";
+$num = (int)$val;
+
+echo $num; // 123
+
+Example: Float → Integer (decimal বাদ যাবে)
+$price = 10.99;
+$intPrice = (int)$price;
+
+echo $intPrice; // 10
+
+Example: Any → String
+$num = 50;
+$str = (string)$num;
+
+echo $str; // "50"
+
+Example: Integer → Boolean
+$v = 0;
+$b = (bool)$v;
+
+var_dump($b); // bool(false)
+
+
+0 → false
+
+অন্য যেকোনো সংখ্যা → true
+
+gettype() দিয়ে টাইপ চেক করা
+echo gettype(100);        // integer
+echo gettype("Hello");    // string
+echo gettype(10.5);       // double
+echo gettype(true);       // boolean
+
+⭐ Bonus: settype() function
+$val = "10";
+settype($val, "integer");
+
+echo $val;      // 10
+echo gettype($val); // integer

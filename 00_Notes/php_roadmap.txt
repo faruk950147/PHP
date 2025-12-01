@@ -1,0 +1,94 @@
+PHP Roadmap (Beginner to Advanced)
+
+1.  Basic Web Foundation
+
+-   HTML5
+-   CSS3
+-   Basic JavaScript
+
+2.  PHP Basics
+
+-   Syntax, variables, data types
+-   Conditions, loops, functions
+-   Arrays
+-   File handling
+-   Superglobals
+
+3.  Forms & Validation
+
+-   Form processing
+-   Input validation
+-   Sanitization
+-   CSRF protection
+
+4.  PHP & Database (MySQL)
+
+-   Create tables
+-   SELECT, INSERT, UPDATE, DELETE
+-   PHP MySQL connection (PDO recommended)
+-   CRUD operations
+
+5.  Intermediate PHP
+
+-   Sessions & cookies
+-   File upload
+-   Pagination
+-   Authentication system
+-   Working with APIs
+
+6.  OOP in PHP
+
+-   Classes, objects
+-   Constructor
+-   Inheritance
+-   Polymorphism
+-   Encapsulation
+-   Traits, namespaces
+-   Autoloading (PSR-4)
+
+7.  Design Patterns
+
+-   MVC
+-   Singleton
+-   Factory
+-   Repository
+-   Service layer
+
+8.  PHP Security
+
+-   SQL injection prevention
+-   XSS protection
+-   Password hashing
+-   Validation
+
+9.  Advanced PHP
+
+-   Composer
+-   Dependency Injection
+-   Middleware
+-   REST API development
+-   JWT Authentication
+-   Error handling
+
+10. Frameworks
+
+-   Laravel
+-   CodeIgniter
+-   Symfony
+
+11. Real Projects
+
+-   Blog
+-   E-commerce
+-   CRM
+-   School management
+-   Hotel reservation
+-   REST API project
+
+12. Tools
+
+-   Git & GitHub
+-   XAMPP / Laragon
+-   Postman
+-   VS Code
+-   phpMyAdmin / MySQL Workbench

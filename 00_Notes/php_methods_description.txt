@@ -1,0 +1,86 @@
+PHP Methods Description
+-------------------------
+Magic Methods:
+__construct(): Runs when object is created.
+__destruct(): Runs when object is destroyed.
+__call(): Handles calls to undefined methods.
+__callStatic(): Handles static undefined methods.
+__get(): Handles undefined property get.
+__set(): Handles undefined property set.
+__isset(): When isset/empty checked.
+__unset(): When unset used.
+__toString(): Converts object to string.
+__clone(): On cloning.
+
+String Functions:
+strlen(): Length of string.
+strpos(): Finds position of substring.
+str_replace(): Replace text.
+substr(): Extract substring.
+trim(): Remove whitespace.
+explode(): Split string.
+implode(): Join array to string.
+
+Array Functions:
+array_push(): Add item at end.
+array_pop(): Remove last item.
+array_shift(): Remove first item.
+array_merge(): Merge arrays.
+in_array(): Check value exists.
+array_keys(): Get keys.
+array_values(): Get values.
+array_map(): Apply function.
+
+Math:
+abs(): Absolute value.
+ceil(): Round up.
+floor(): Round down.
+round(): Round number.
+rand(): Random number.
+
+Date:
+time(): Current timestamp.
+date(): Format date.
+strtotime(): Convert string to time.
+
+File:
+fopen(): Open file.
+fwrite(): Write file.
+fread(): Read file.
+file_get_contents(): Read whole file.
+file_put_contents(): Write whole file.
+
+Session:
+session_start(): Start session.
+session_destroy(): Destroy session.
+
+Cookie:
+setcookie(): Set cookie.
+
+Regex:
+preg_match(): Match pattern.
+preg_replace(): Replace pattern.
+
+JSON:
+json_encode(): To JSON.
+json_decode(): From JSON.
+
+cURL:
+curl_init(): Init curl.
+curl_setopt(): Set options.
+curl_exec(): Execute.
+curl_close(): Close.
+
+Hashing:
+password_hash(): Hash password.
+password_verify(): Verify hash.
+
+MySQLi:
+mysqli_connect(): DB connect.
+mysqli_query(): Run query.
+mysqli_fetch_assoc(): Fetch assoc.
+
+PDO:
+prepare(): Prepare SQL.
+execute(): Execute.
+fetch(): Fetch row.
