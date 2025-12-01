@@ -14,4 +14,18 @@
     define("PASS_MARK", 40);
     // echo constant("SCHOOL_NAME")
     echo "Your constant is ".SCHOOL_NAME
+
+    $name = "Faruk";
+    echo "Hello, $name!";// riscky
+    $name = "Faruk";
+    echo "Hello, {$name}!"; //Safe
+
+    $name = "Faruk";
+    $age = 20;
+
+    echo sprintf("My name is %s and I am %d years old.", $name, $age);
+    
+
+
+
 ?>
