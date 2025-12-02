@@ -84,4 +84,16 @@ echo @$x;
 echo @$y;
 echo @$z;
 echo @$z;
+
+/* Ternary operators */
+$x = 10;
+$y = 20;
+echo $x > $y ? "Yes" : "No";
+echo $x < $y ? "Yes" : "No";
+echo $x >= $y ? "Yes" : "No";
+echo $x <= $y ? "Yes" : "No";
+echo $x == $y ? "Yes" : "No";
+echo $x != $y ? "Yes" : "No";
+echo $x <> $y ? "Yes" : "No";
+echo $x !== $y ? "Yes" : "No";
 ?>
