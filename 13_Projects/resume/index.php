@@ -1,6 +1,12 @@
 <?php
 include 'components/head.php';
 include 'components/header.php';
-include 'components/main.php';
+?>
+
+<main class="main">
+
+</main>
+
+<?php
 include 'components/footer.php';
 ?>
