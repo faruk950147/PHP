@@ -37,4 +37,3 @@
 </head>
 
 <body class="index-page">
-  
