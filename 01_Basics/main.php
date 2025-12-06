@@ -14,7 +14,8 @@
     define("PASS_MARK", 40);
     // echo constant("SCHOOL_NAME")
     echo "Your constant is ".SCHOOL_NAME;
-
+    const pi = 3.1416;
+    echo 'pi', pi;
     $name = "Faruk";
     echo "Hello, $name!";// riscky
     $name = "Faruk";
