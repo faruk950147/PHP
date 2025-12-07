@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - DevFolio Bootstrap Template</title>
+  <title>MD. Shakib Hasan</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -35,5 +35,3 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-
-<body class="index-page">
