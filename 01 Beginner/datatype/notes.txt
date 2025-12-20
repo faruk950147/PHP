@@ -1,0 +1,51 @@
+<?php
+/*
+Data Types in PHP
+================
+
+What is a Datatype?
+-------------------
+In PHP, a datatype defines what kind of value a variable holds.
+
+PHP is a dynamically typed language, meaning you don’t need to explicitly declare the datatype — it is decided automatically based on the assigned value.
+
+Built-in Datatypes in PHP
+----------------------------
+
+1. Primitive Datatype
+   - int      → 10, -5, 1000
+   - float    → 3.14, -0.5
+   - bool     → true, false
+   - NULL     → null
+
+2. Non-Primitive Datatype
+   - array    → [1, 2, 3], ["name" => "Faruk", "age" => 20]
+   - object   → instance of a class
+
+3. Special Types
+   - resource → external resource reference (e.g., database connection)
+*/
+
+/* Example Code */
+$a = 10;                         // int
+$b = 3.14;                       // float
+$c = "PHP";                       // string
+$d = true;                        // bool
+$e = [1, 2, 3];                   // array
+$f = [1, 2, 3];                   // array
+$g = ["x", "y"];                   // array
+$h = ["name" => "Faruk", "age" => 20]; // associative array
+
+// Print data types
+echo gettype($a); // int
+echo "\n";
+echo gettype($b); // double
+echo "\n";
+echo gettype($c); // string
+echo "\n";
+echo gettype($d); // boolean
+echo "\n";
+echo gettype($e); // array
+echo "\n";
+echo gettype($h); // array
+?>
