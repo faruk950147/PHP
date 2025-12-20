@@ -8,6 +8,8 @@
 */
 echo "Hello ", "World"; // Output: Hello World
 
+echo "<br>";
+
 /*
     print
     - Language construct
@@ -15,6 +17,8 @@ echo "Hello ", "World"; // Output: Hello World
     - Always returns 1
 */
 print "Hello PHP"; // Output: Hello PHP
+
+print "<br>";
 
 /*
     print_r()
@@ -25,6 +29,8 @@ print "Hello PHP"; // Output: Hello PHP
 $arr = [1, 2, 3];
 print_r($arr); // Output: Array ( [0] => 1 [1] => 2 [2] => 3 )
 
+print "<br>";
+
 /*
     var_dump()
     - Function
@@ -32,6 +38,7 @@ print_r($arr); // Output: Array ( [0] => 1 [1] => 2 [2] => 3 )
     - Useful for detailed debugging
 */
 var_dump($arr); 
+print "<br>";
 /*
 Output:
 array(3) {
@@ -51,6 +58,7 @@ array(3) {
     - Can optionally return as string
 */
 var_export($arr); // Output: array ( 0 => 1, 1 => 2, 2 => 3, )
+print "<br>";
 
 /*
     die() / exit()
@@ -69,4 +77,5 @@ var_export($arr); // Output: array ( 0 => 1, 1 => 2, 2 => 3, )
 $name = "Faruk";
 $str = sprintf("Hello %s!", $name);
 echo $str; // Output: Hello Faruk!
+print "<br>";
 ?>
