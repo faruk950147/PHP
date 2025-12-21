@@ -21,8 +21,6 @@
         return $value; // optional
     }
  */
-<?php
-declare(strict_types=1); // enable strict typing
 
 // ================================== simple function ======================================
 function myMessage() {
