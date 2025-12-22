@@ -1,7 +1,7 @@
 <?php
-    include "include/open_html.php";
-    include "include/header.php";
-    require_once "config/db.php";
+    include __DIR__ . "/include/open_html.php";
+    include __DIR__ . "/include/header.php";
+    require_once __DIR__ . "/config/db.php";
 ?>
 
 <main class="py-5">
@@ -44,5 +44,5 @@
 </main>
 
 <?php
-    include "include/closed_html.php";
+    include __DIR__ . "/include/closed_html.php";
 ?>

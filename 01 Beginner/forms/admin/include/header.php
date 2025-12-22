@@ -11,11 +11,11 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/admin/add-data/created.php">Add Student</a>
+                        <a class="nav-link" href="../add-data/created.php">Add Student</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/admin/index.php">Student List</a>
+                        <a class="nav-link" href="index.php">Student List</a>
                     </li>
                 </ul>
             </div>
