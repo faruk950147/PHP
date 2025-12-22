@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../add-data/created.php">Add Student</a>
+                        <a class="nav-link" href="/create.php">Add Student</a>
                     </li>
 
                     <li class="nav-item">
