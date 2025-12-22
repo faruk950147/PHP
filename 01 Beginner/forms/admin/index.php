@@ -7,52 +7,37 @@
 <main class="py-5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6">
-
-                <div class="card shadow">
-                    <div class="card-header bg-success text-white">
-                        <h4 class="mb-0">Add Student Information</h4>
-                    </div>
-
-                    <div class="card-body">
-                        <form method="post" action="">
-                            <!-- Name -->
-                            <div class="mb-3">
-                                <input type="text" name="name" class="form-control" placeholder="Student Name">
-                            </div>
-
-                            <!-- Email -->
-                            <div class="mb-3">
-                                <input type="email" name="email" class="form-control" placeholder="Email Address">
-                            </div>
-
-                            <!-- Phone -->
-                            <div class="mb-3">
-                                <input type="text" name="phone" class="form-control" placeholder="Phone Number">
-                            </div>
-
-                            <!-- Department -->
-                            <div class="mb-3">
-                                <select name="department" class="form-select">
-                                    <option selected disabled>Select Department</option>
-                                    <option value="CMT">CMT</option>
-                                    <option value="Electrical">Electrical</option>
-                                    <option value="Mechanical">Mechanical</option>
-                                    <option value="Civil">Civil</option>
-                                </select>
-                            </div>
-
-                            <!-- Submit -->
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-success">
-                                    Save Student
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-
+            <div class="col-md-8 bg-white text-dark p-3">
+                <div class="title mb-3">
+                    <h2 class="text-center">Student Information Table</h2>
                 </div>
-
+                <table class="table table-bordered table-striped text-dark" id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Department</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Faruk Ahmed</td>
+                            <td>faruk@gmail.com</td>
+                            <td>1234567890</td>
+                            <td>CSE</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sarah Khan</td>
+                            <td>faruk@gmail.com</td>
+                            <td>1234567890</td>
+                            <td>CSE</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
