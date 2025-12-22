@@ -1,7 +1,7 @@
 <?php
-    include __DIR__ . "/include/open_html.php";
-    include __DIR__ . "/include/header.php";
-    require_once __DIR__ . "/config/db.php";
+include $_SERVER['DOCUMENT_ROOT'] . '/PHP/01_Beginner/forms/admin/include/open_html.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/PHP/01_Beginner/forms/admin/include/header.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/PHP/01_Beginner/forms/admin/config/db.php';
 ?>
 
 <main class="py-5">
@@ -44,5 +44,5 @@
 </main>
 
 <?php
-    include __DIR__ . "/include/closed_html.php";
+include $_SERVER['DOCUMENT_ROOT'] . '/PHP/01_Beginner/forms/admin/include/open_html.php';
 ?>
