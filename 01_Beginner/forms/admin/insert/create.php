@@ -1,6 +1,8 @@
 <?php
     include_once "../include/open_html.php";
     include_once "../include/header.php";
+
+    echo $_SERVER['PHP_SELF']
 ?>
 
 <main class="py-5">
@@ -14,7 +16,8 @@
                     </div>
 
                     <div class="card-body">
-                        <form method="post" action="">
+                        <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>"
+>
                             <!-- Name -->
                             <div class="mb-3">
                                 <input type="text" name="name" class="form-control" placeholder="Student Name">
