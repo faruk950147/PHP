@@ -1,0 +1,34 @@
+1 PHP version চেক
+php -v
+
+
+আপনার সিস্টেমে ইনস্টল করা PHP version দেখাবে
+
+2 Composer version চেক
+composer -V
+
+
+বা
+
+composer --version
+
+3 Composer কোন PHP ব্যবহার করছে তা চেক
+composer diagnose
+
+
+এখানে PHP version, extensions, config সব দেখাবে
+
+4 Composer requirements অনুযায়ী PHP ঠিক আছে কিনা
+composer check-platform-reqs
+
+
+PHP version বা extension mismatch থাকলে দেখাবে
+
+5 নির্দিষ্ট PHP version দিয়ে Composer রান করতে চাইলে
+php8.2 composer install
+
+
+(যদি একাধিক PHP version ইনস্টল থাকে)
+
+6 Windows (XAMPP) ব্যবহার করলে PHP path চেক
+where php

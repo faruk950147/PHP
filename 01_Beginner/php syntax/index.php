@@ -1,9 +1,13 @@
 <?php
-    // echo phpversion();
+/*     // echo phpversion();
     echo "<br>";
-    // echo phpinfo();
-    // echo "<br>";
-    // echo PHP_VERSION;
+    echo phpinfo();
+    echo "<br>";
+    echo PHP_VERSION;
     echo "</b>";
-    echo "php";
+    echo "php"; */
+?> 
+
+<?= 
+    phpversion() ."<br>";
 ?>
