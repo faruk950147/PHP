@@ -69,5 +69,13 @@
     echo '<br>';
     echo gettype($person);
     echo '<br>';
-
+    
+    // =========================== type conversion ===========================
+    // string to int
+    $str1 = '1';
+    $str1 = (int) $str1;
+    echo $str1;
+    echo '<br>';
+    echo gettype($str1);
+    
 ?>
