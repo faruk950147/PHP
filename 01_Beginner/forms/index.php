@@ -1,6 +1,7 @@
 <?php
 include_once 'admin/include/open_html.php';
 include_once 'admin/include/header.php';
+include_once 'config/db.php'
 ?>
 
 
