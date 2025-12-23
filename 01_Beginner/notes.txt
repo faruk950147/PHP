@@ -1,0 +1,77 @@
+
+1Standard (Recommended )
+<?php
+    echo "Hello";
+?>
+
+2 Short Echo Tag (Most Used in Template )
+<?= "Hello" ?>
+
+<!-- 1. if -->
+<?php if ($age >= 18): ?>
+    Adult
+<?php endif; ?>
+
+
+<!-- 2. if - else -->
+<?php if ($isLogin): ?>
+    Welcome
+<?php else: ?>
+    Please Login
+<?php endif; ?>
+
+
+<!-- 3. if - elseif - else -->
+<?php if ($mark >= 80): ?>
+    A+
+<?php elseif ($mark >= 60): ?>
+    A
+<?php else: ?>
+    Fail
+<?php endif; ?>
+
+
+<!-- 4. foreach -->
+<?php foreach ($users as $user): ?>
+    <li><?= $user ?></li>
+<?php endforeach; ?>
+
+
+<!-- 5. for -->
+<?php for ($i = 1; $i <= 5; $i++): ?>
+    <p>Number: <?= $i ?></p>
+<?php endfor; ?>
+
+
+<!-- 6. while -->
+<?php while ($i <= 5): ?>
+    <?= $i ?>
+<?php
+    $i++;
+endwhile;
+?>
+
+
+<!-- 7. switch -->
+<?php switch ($status):
+    case "active": ?>
+        Active
+        <?php break; ?>
+    <?php case "inactive": ?>
+        Inactive
+        <?php break; ?>
+    <?php default: ?>
+        Unknown
+<?php endswitch; ?>
+
+
+<!-- 8. Short echo tag -->
+<?= $name ?>
+
+
+<!-- 9. Ternary operator -->
+<?= ($age >= 18) ? "Adult" : "Child" ?>
+
+
+<!-- 10. Null coalescing operator -->
+<?= $username ?? "Guest" ?>
