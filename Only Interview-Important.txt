@@ -1,0 +1,51 @@
+PHP INTERVIEW IMPORTANT FUNCTIONS
+=================================
+
+STRING
+------
+strlen()            -> Length
+strpos()            -> Position find
+substr()            -> Extract part
+str_replace()       -> Replace text
+
+ARRAY
+-----
+count()             -> Count elements
+array_merge()       -> Merge arrays
+array_unique()      -> Remove duplicate
+in_array()          -> Search value
+sort(), asort()     -> Sorting
+
+FORM & SECURITY
+---------------
+isset()             -> Variable exists
+empty()             -> Empty check
+htmlspecialchars()  -> XSS protection
+password_hash()     -> Password hash
+password_verify()   -> Password verify
+
+FILE
+----
+file_get_contents() -> Read file
+file_put_contents() -> Write file
+unlink()            -> Delete file
+
+SESSION & COOKIE
+----------------
+session_start()     -> Start session
+session_destroy()   -> Destroy session
+setcookie()         -> Set cookie
+
+DATE
+----
+date()              -> Format date
+time()              -> Timestamp
+strtotime()         -> Convert time
+
+DEBUG
+-----
+var_dump()          -> Debug output
+print_r()           -> Readable output
+
+END
+===

@@ -1,0 +1,54 @@
+ADVANCED PHP FUNCTIONS
+======================
+
+1. ERROR & DEBUGGING
+-------------------
+error_reporting()       -> Error level set
+ini_set()               -> PHP config change
+trigger_error()         -> Custom error
+debug_backtrace()       -> Function call trace
+
+2. OUTPUT BUFFERING
+-------------------
+ob_start()              -> Output buffering start
+ob_get_clean()          -> Get & clear buffer
+ob_end_flush()          -> Send output & stop buffer
+ob_end_clean()          -> Clear buffer only
+
+3. CALLBACK & FUNCTION
+---------------------
+call_user_func()        -> Callback function call
+call_user_func_array()  -> Callback with array args
+function_exists()       -> Function exists check
+get_defined_functions() -> All functions list
+
+4. REGULAR EXPRESSION
+--------------------
+preg_match()            -> Pattern match
+preg_match_all()        -> All matches
+preg_replace()          -> Replace pattern
+preg_split()            -> Split by pattern
+
+5. JSON & DATA
+--------------
+json_encode()           -> Array/Object → JSON
+json_decode()           -> JSON → Array/Object
+serialize()             -> Store data
+unserialize()           -> Restore data
+
+6. OBJECT & CLASS
+-----------------
+get_class()             -> Class name
+method_exists()         -> Method exists
+property_exists()       -> Property exists
+get_object_vars()       -> Object properties
+
+7. SERVER & SYSTEM
+------------------
+phpinfo()               -> PHP info
+getenv()                -> Environment value
+memory_get_usage()      -> Memory usage
+microtime()             -> Execution time
+
+END
+===

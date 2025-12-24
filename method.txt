@@ -1,0 +1,125 @@
+============================= all methods =====================================
+PHP BUILT-IN FUNCTIONS WITH DESCRIPTION
+======================================
+
+1. STRING FUNCTIONS
+-------------------
+strlen()            -> String length বের করে
+str_word_count()    -> শব্দ সংখ্যা গণনা
+strrev()            -> String উল্টে দেয়
+strpos()            -> Substring position খুঁজে
+str_replace()       -> String replace করে
+substr()            -> String-এর অংশ নেয়
+strtolower()        -> Lowercase করে
+strtoupper()        -> Uppercase করে
+trim()              -> Extra space remove
+explode()           -> String to Array
+implode()           -> Array to String
+strcmp()            -> String compare
+ucfirst()           -> First letter capital
+ucwords()           -> Every word capital
+
+2. ARRAY FUNCTIONS
+------------------
+count()             -> Array length
+array_push()        -> Element add (last)
+array_pop()         -> Last element remove
+array_shift()       -> First element remove
+array_unshift()     -> First element add
+array_merge()       -> Array merge
+array_reverse()     -> Reverse array
+array_unique()      -> Duplicate remove
+in_array()          -> Value exists check
+array_keys()        -> Keys return
+array_values()      -> Values return
+sort()              -> Ascending sort
+rsort()             -> Descending sort
+asort()             -> Value sort (key safe)
+ksort()             -> Key sort
+
+3. MATH FUNCTIONS
+-----------------
+abs()               -> Absolute value
+round()             -> Round number
+ceil()              -> Upper round
+floor()             -> Lower round
+sqrt()              -> Square root
+pow()               -> Power calculation
+rand()              -> Random number
+max()               -> Max value
+min()               -> Min value
+pi()                -> Pi value
+
+4. DATE & TIME FUNCTIONS
+------------------------
+date()              -> Date format
+time()              -> Current timestamp
+strtotime()         -> String to time
+mktime()            -> Custom timestamp
+getdate()           -> Date array
+date_default_timezone_set() -> Timezone set
+
+5. FILE HANDLING FUNCTIONS
+--------------------------
+fopen()             -> File open
+fclose()            -> File close
+fread()             -> File read
+fwrite()            -> File write
+file_get_contents() -> Read file easily
+file_put_contents() -> Write file easily
+unlink()            -> Delete file
+copy()              -> Copy file
+rename()            -> Rename file
+file_exists()       -> File exists check
+
+6. FORM & INPUT FUNCTIONS
+-------------------------
+isset()             -> Variable exists check
+empty()             -> Empty check
+htmlspecialchars()  -> XSS protection
+htmlentities()      -> HTML encode
+filter_input()      -> Input filter
+filter_var()        -> Validate data
+
+7. VARIABLE & TYPE FUNCTIONS
+----------------------------
+gettype()           -> Variable type
+settype()           -> Change type
+is_string()         -> Is string?
+is_array()          -> Is array?
+is_int()            -> Is integer?
+is_numeric()        -> Is numeric?
+var_dump()          -> Debug output
+print_r()           -> Readable output
+
+8. SESSION & COOKIE FUNCTIONS
+-----------------------------
+session_start()     -> Start session
+session_destroy()   -> Destroy session
+session_unset()     -> Clear session
+setcookie()         -> Set cookie
+$_SESSION           -> Session variable
+$_COOKIE            -> Cookie variable
+
+9. PHP SUPERGLOBALS
+-------------------
+$_GET               -> URL data
+$_POST              -> Form data
+$_REQUEST           -> GET + POST
+$_SERVER            -> Server info
+$_FILES             -> File upload
+$_SESSION           -> Session data
+$_COOKIE            -> Cookie data
+$_ENV               -> Environment data
+
+10. SECURITY & HASHING
+---------------------
+md5()               -> Hash (not secure)
+sha1()              -> Hash
+password_hash()     -> Secure password hash
+password_verify()   -> Password verify
+openssl_encrypt()   -> Encrypt data
+openssl_decrypt()   -> Decrypt data
+
+END OF FILE
+===========

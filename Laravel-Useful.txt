@@ -1,0 +1,57 @@
+LARAVEL USEFUL PHP FUNCTIONS
+============================
+
+STRING & HELPER
+---------------
+strlen()            -> Validation use
+strtolower()        -> Normalize data
+strtoupper()        -> Uppercase
+trim()              -> Clean input
+explode()           -> String to array
+implode()           -> Array to string
+
+ARRAY
+-----
+array_merge()       -> Merge request data
+array_filter()      -> Remove null values
+array_map()         -> Modify array
+array_keys()        -> Keys access
+array_values()      -> Values access
+
+DATE & TIME
+-----------
+date()              -> Format date
+time()              -> Timestamp
+strtotime()         -> Date convert
+
+FILE & STORAGE
+--------------
+file_exists()       -> Check file
+unlink()            -> Delete file
+mime_content_type() -> File MIME type
+
+SECURITY
+--------
+password_hash()     -> Hash password
+password_verify()   -> Verify password
+hash()              -> Secure hashing
+
+JSON & API
+----------
+json_encode()       -> API response
+json_decode()       -> API request
+http_build_query()  -> Query string
+
+ENV & CONFIG
+------------
+getenv()            -> .env access
+putenv()            -> Set env
+ini_get()           -> PHP config
+
+DEBUG
+-----
+dd()                -> Dump & die (Laravel)
+dump()              -> Dump variable
+
+END
+===
