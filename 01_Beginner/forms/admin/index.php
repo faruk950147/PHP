@@ -18,6 +18,8 @@
                             <th>Email</th>
                             <th>Phone</th>
                             <th>Department</th>
+                            <th>Roll</th>
+                            <th>Image</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,13 +29,17 @@
                             <td>faruk@gmail.com</td>
                             <td>1234567890</td>
                             <td>CSE</td>
+                            <td>123</td>
+                            <td><img src="../assets/images/1.jpg" alt=""></td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Sarah Khan</td>
-                            <td>faruk@gmail.com</td>
+                            <td>Sarah@gmail.com</td>
                             <td>1234567890</td>
                             <td>CSE</td>
+                            <td>123</td>
+                            <td><img src="../assets/images/2.jpg" alt=""></td>
                         </tr>
                     </tbody>
                 </table>

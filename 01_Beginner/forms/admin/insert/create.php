@@ -2,7 +2,7 @@
     include_once "../include/open_html.php";
     include_once "../include/header.php";
 
-    echo $_SERVER['PHP_SELF']
+    echo $_SERVER['PHP_SELF'];
 ?>
 
 <main class="py-5">
@@ -42,6 +42,16 @@
                                     <option value="ME">ME</option>
                                     <option value="CE">CE</option>
                                 </select>
+                            </div>
+                            
+                            <!-- Roll -->
+                            <div class="mb-3">
+                                <input type="text" name="roll" class="form-control" placeholder="Roll Number">
+                            </div>
+
+                            <!-- Image -->
+                            <div class="mb-3">
+                                <input type="file" name="image" class="form-control">
                             </div>
 
                             <!-- Submit -->
