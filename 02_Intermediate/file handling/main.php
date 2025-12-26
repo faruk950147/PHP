@@ -17,5 +17,7 @@
     unlink() - deletes a file
 */
 
-echo readfile("data.txt");
+    $file = fopen("data.txt", "r") or die("Error: Unable to open file!");
+    echo fread($file,filesize("data.txt"));
+    fclose($file);
 ?>
