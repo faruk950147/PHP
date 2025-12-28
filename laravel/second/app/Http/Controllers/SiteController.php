@@ -17,7 +17,6 @@ class SiteController extends Controller
         return view('student-about');
     }
     function StudentName($name){
-        echo 'Name ' . $name;
-        return view('student-name');
+        return view('student-name', ['name' => $name]);
     }
 }

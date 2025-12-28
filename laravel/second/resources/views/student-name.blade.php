@@ -51,7 +51,7 @@
 
     <main class="main">
         <h1 class="display-1">
-            name
+            Name : {{$name}}
         </h1>
     </main>
 
