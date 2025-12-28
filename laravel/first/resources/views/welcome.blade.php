@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
-    <title>Contact</title>
+    <title>Home</title>
 
     <!-- datatable -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
@@ -31,16 +31,12 @@
                     <ul class="navbar-nav ms-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url ('StudentAdd') }}">
-                                Add Student
+                            <a class="nav-link" href="">
+                                Home
                             </a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{url ('StudentAbout') }}">
-                                Student About
-                            </a>
-                        </li>
+
 
                     </ul>
                 </div>
@@ -51,7 +47,7 @@
 
     <main class="main">
         <h1 class="display-1">
-            Student Add
+            Welcome
         </h1>
     </main>
 

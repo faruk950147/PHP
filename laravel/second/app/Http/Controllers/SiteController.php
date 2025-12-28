@@ -11,9 +11,9 @@ class SiteController extends Controller
         return view('home');
     }
     function StudentAdd(){
-        return view('add');
+        return view('student-add');
     }
     function StudentAbout(){
-        return view('about');
+        return view('student-about');
     }
 }

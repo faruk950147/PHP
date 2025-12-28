@@ -38,7 +38,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{url ('StudentAbout') }}">
-                                Student About
+                                About Me
                             </a>
                         </li>
 
@@ -51,7 +51,7 @@
 
     <main class="main">
         <h1 class="display-1">
-            Student About
+            About
         </h1>
     </main>
 

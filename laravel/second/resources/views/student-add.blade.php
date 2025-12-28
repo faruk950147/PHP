@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
-    <title>Add Student Information</title>
+    <title>Contact</title>
 
     <!-- datatable -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-success">
             <div class="container">
 
-                <a class="navbar-brand" href="/admin/index.php">
+                <a class="navbar-brand" href="{{url ('/') }}">
                     Student App
                 </a>
 
@@ -31,14 +31,14 @@
                     <ul class="navbar-nav ms-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/admin/insert/create.php">
+                            <a class="nav-link" href="{{url ('StudentAdd') }}">
                                 Add Student
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/admin/index.php">
-                                Student List
+                            <a class="nav-link" href="{{url ('StudentAbout') }}">
+                                About Me
                             </a>
                         </li>
 
@@ -48,6 +48,12 @@
         </nav>
     </header>
 
+
+    <main class="main">
+        <h1 class="display-1">
+            Student Add
+        </h1>
+    </main>
 
     <footer class="footer">
         <p class="footer-text text-center">&copy; 2025 Forms. All rights reserved.</p>
