@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
-    <title>Home</title>
+    <title>Contact</title>
 
     <!-- datatable -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
@@ -48,10 +48,10 @@
         </nav>
     </header>
 
-    
+
     <main class="main">
         <h1 class="display-1">
-            home
+            Student Add
         </h1>
     </main>
 
