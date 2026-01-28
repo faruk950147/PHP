@@ -1,0 +1,90 @@
+তুমি ঠিকই বলছো — .env GitHub এ না দিলে অন্য PC তে project run করবে কীভাবে?
+চল পরিষ্কার করে বুঝি 👇
+
+🔒 কেন .env GitHub এ দেই না?
+
+কারণ এতে থাকে:
+
+Database password
+
+Mail password
+
+API keys
+
+Secret app key
+
+GitHub এ দিলে এগুলো লিক হয়ে যাবে ❌
+
+✅ তাহলে অন্য PC / টিমমেট কীভাবে চালাবে?
+
+এর জন্যই Laravel দেয় 👉 .env.example
+
+GitHub এ থাকবে:
+
+.env.example   ✅
+.env           ❌ (ignored)
+
+🧑‍💻 অন্য PC তে Project Setup করার নিয়ম
+
+ধরো তুমি GitHub থেকে project clone করলে। তখন করবে:
+
+1️⃣ Repo Clone
+git clone https://github.com/yourname/project.git
+cd project
+
+2️⃣ .env ফাইল তৈরি করো .env.example থেকে
+cp .env.example .env
+
+
+Windows হলে:
+
+copy .env.example .env
+
+3️⃣ App Key Generate
+php artisan key:generate
+
+
+এটা .env এ APP_KEY বসাবে।
+
+4️⃣ নিজের PC অনুযায়ী DB সেট করো
+
+.env খুলে edit করো:
+
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=1234
+
+
+👉 যার PC সে তার নিজের database info দিবে
+
+5️⃣ Database migrate
+php artisan migrate
+
+6️⃣ Server Run
+php artisan serve
+
+🎯 সহজ ভাষায়
+ফাইল	GitHub এ যাবে?	কাজ
+.env	❌ না	আসল secret config
+.env.example	✅ যাবে	dummy config template
+💡 Pro Tip (Team Work এ)
+
+.env.example এ এমনভাবে লিখো যাতে অন্যরা বুঝে কী লাগবে:
+
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_db_name
+DB_USERNAME=your_db_user
+DB_PASSWORD=your_db_password
+
+🔥 Bottom Line
+
+👉 .env শেয়ার করা হয় না
+👉 .env.example দিয়ে সবাই নিজের .env বানায়
+👉 তাই security + flexibility দুইটাই থাকে
